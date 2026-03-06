@@ -1,0 +1,31 @@
+{
+  "name": "repository",
+  "version": "1.0.0",
+  "description": "انشاء منصة فلك لسلاسل الامداد",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1161357955/Repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/1161357955/Repository/issues"
+  },
+  "homepage": "https://github.com/1161357955/Repository#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}

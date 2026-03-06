@@ -1,0 +1,6 @@
+node_modules/
+falak.db
+*.db
+*.db-shm
+*.db-wal
+.env
