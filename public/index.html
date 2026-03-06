@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة فلك - إدارة سلاسل الإمداد</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <span class="logo-icon">🌙</span>
+      <span class="logo-text">منصة فلك</span>
+    </div>
+    <ul class="nav-list">
+      <li><a href="#" class="nav-link active" data-page="dashboard"><span class="nav-icon">📊</span> لوحة التحكم</a></li>
+      <li><a href="#" class="nav-link" data-page="vendors"><span class="nav-icon">🏭</span> الموردون</a></li>
+      <li><a href="#" class="nav-link" data-page="beneficiaries"><span class="nav-icon">👥</span> المستفيدون</a></li>
+      <li><a href="#" class="nav-link" data-page="services"><span class="nav-icon">⚙️</span> الخدمات</a></li>
+      <li><a href="#" class="nav-link" data-page="billing"><span class="nav-icon">🧾</span> الفوترة</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-wrapper">
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <h1 class="page-title" id="pageTitle">لوحة التحكم</h1>
+    </header>
+
+    <main class="content" id="content">
+      <!-- Pages rendered by JS -->
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modalOverlay" style="display:none">
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

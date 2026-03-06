@@ -1,0 +1,4 @@
+node_modules/
+falak.db
+*.db
+.env
