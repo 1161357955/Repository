@@ -1,0 +1,11 @@
+{
+  "name": "diagnostic-logs-networking",
+  "version": "1.0.0",
+  "description": "Networking diagnostic logger for the Falak supply-chain platform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["diagnostics", "networking", "logging", "supply-chain"],
+  "license": "MIT"
+}
